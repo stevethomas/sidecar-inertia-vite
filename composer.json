@@ -3,15 +3,12 @@
     "description": "A Sidecar function to run Inertia server-side rendering with Vite on Lambda.",
     "type": "library",
     "require": {
-        "hammerstone/sidecar": "^0.4",
-        "inertiajs/inertia-laravel": "^0.6",
-        "php": "^8.0",
-        "illuminate/support": "^9|^10"
+        "hammerstone/sidecar": "^0.6",
+        "inertiajs/inertia-laravel": "^1.0|2.x-dev",
+        "php": "^8.2",
+        "illuminate/support": "^11"
     },
     "require-dev": {
-        "orchestra/testbench": "^7.15|^8.0",
-        "mockery/mockery": "^1.5",
-        "phpunit/phpunit": "^9.5|^10.0",
         "laravel/pint": "^1.2"
     },
     "license": "MIT",
